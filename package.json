@@ -1,0 +1,27 @@
+{
+  "name": "desafio-sea-tecnologia",
+  "version": "1.0.0",
+  "description": "Desafio Técnico para vaga de Analista de Testes - SEA Tecnologia",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasjoseaa/desafio-sea-tecnologia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lucasjoseaa/desafio-sea-tecnologia/issues"
+  },
+  "homepage": "https://github.com/lucasjoseaa/desafio-sea-tecnologia#readme",
+  "devDependencies": {
+    "cypress": "^15.17.0"
+  }
+}
