@@ -132,9 +132,9 @@ Funcionalidades secundárias:
 
 | Ferramenta         | Finalidade                     |
 | ------------------ | ------------------------------ |
-| Google Chrome      | Execução dos testes            |
-| Microsoft Edge     | Testes de compatibilidade      |
-| Mozilla Firefox    | Testes de compatibilidade      |
+| Google Chrome v149.0.7827.54 64 bits      | Execução dos testes            |
+| Microsoft Edge v149.0.4022.62 64 bits    | Testes de compatibilidade      |
+| Mozilla Firefox v149.0.4022.62 64 bits    | Testes de compatibilidade      |
 | Cypress            | Automação dos testes           |
 | Visual Studio Code | Desenvolvimento e documentação |
 | Git                | Controle de versão             |
@@ -189,7 +189,7 @@ A automação será desenvolvida utilizando Cypress com padrão POM (Page Object
 | Criação dos Casos de Teste  |       |   ✓   |   ✓   |       |       |       |       |
 | Execução dos Testes Manuais |       |       |   ✓   |   ✓   |       |       |       |
 | Registro dos Bugs           |       |       |   ✓   |   ✓   |   ✓   |       |       |
-| Automação Cypress (POM)     |       |       |       |       |   ✓   |   ✓   |       |
+| Automação Cypress           |       |       |       |       |   ✓   |   ✓   |       |
 | Relatório Final             |       |       |       |       |       |   ✓   |       |
 | Revisão Geral e README      |       |       |       |       |       |       |   ✓   |
 
