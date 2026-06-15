@@ -149,15 +149,15 @@ Serão automatizados os seguintes cenários:
 
 ### AT-001 – Cadastro de Funcionário
 
-Objetivo:
+**Objetivo:**
 
 Validar o cadastro de um novo funcionário utilizando dados válidos.
 
-### AT-002 – Edição de Funcionário
+### AT-002 – Validação de Campos Obrigatórios
 
-Objetivo:
+**Objetivo:**
 
-Validar a edição de um funcionário previamente cadastrado.
+Validar que o sistema impede o cadastro de funcionários quando os campos obrigatórios não são preenchidos, exibindo as mensagens de validação correspondentes.
 
 A automação será desenvolvida utilizando Cypress com padrão POM (Page Object Model).
 
