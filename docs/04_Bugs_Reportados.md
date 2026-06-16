@@ -48,6 +48,10 @@ Alta
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Implementar validação de CPF tanto no front-end quanto no back-end, restringindo a entrada apenas a caracteres numéricos e validando o formato e a quantidade de dígitos antes de permitir o salvamento do cadastro.
+
 ---
 
 # SEA-BUG-002 — Sistema permite cadastro com data de nascimento futura
@@ -92,6 +96,10 @@ Alta
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Adicionar validação de data para impedir o cadastro de datas posteriores à data atual. A validação deve ocorrer tanto na interface quanto no servidor para evitar contornos por requisições manipuladas.
+
 ---
 
 # SEA-BUG-003 — Campo RG permite caracteres inválidos e salvamento do cadastro
@@ -135,6 +143,10 @@ Alta
 
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
+
+## Sugestão de Correção
+
+Implementar validação do campo RG, restringindo caracteres incompatíveis com o formato esperado e validando o conteúdo antes do armazenamento.
 
 ---
 
@@ -181,6 +193,10 @@ Média
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Revisar a lógica do componente responsável pelo gerenciamento de atividades para permitir a inclusão e persistência de múltiplas atividades associadas ao mesmo funcionário.
+
 ---
 
 # SEA-BUG-005 — Botão "Adicionar EPI" não executa a ação esperada
@@ -225,6 +241,10 @@ Alta
 
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
+
+## Sugestão de Correção
+
+Verificar a implementação do evento de clique do botão "Adicionar EPI" e garantir que a ação adicione corretamente o EPI selecionado à estrutura de dados do cadastro.
 
 ---
 
@@ -271,6 +291,10 @@ Média
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Implementar validação do campo "Número do CA", permitindo apenas valores compatíveis com o padrão utilizado para Certificados de Aprovação e impedindo caracteres inválidos.
+
 ---
 
 # SEA-BUG-007 — Menu de ações do funcionário não é exibido ao clicar no botão "..."
@@ -313,6 +337,10 @@ Alta
 
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
+
+## Sugestão de Correção
+
+Revisar a implementação do botão de ações ("..."), verificando o acionamento do menu contextual, renderização dos componentes e possíveis erros de JavaScript que impeçam sua exibição.
 
 ---
 
@@ -357,6 +385,10 @@ Alta
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Verificar o roteamento e os eventos associados aos menus laterais, garantindo que cada item execute corretamente a navegação para a tela correspondente.
+
 ---
 
 # SEA-BUG-009 — Botão "Próximo passo" não executa navegação
@@ -399,6 +431,10 @@ Alta
 
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
+
+## Sugestão de Correção
+
+Revisar a implementação do botão "Próximo Passo", validando o fluxo de navegação e a associação correta da ação ao evento de clique.
 
 ---
 
@@ -443,6 +479,10 @@ Média
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Implementar controle dinâmico da numeração das etapas, garantindo que cada item exiba sua identificação correta conforme definido no fluxo do protótipo.
+
 ---
 
 # SEA-BUG-011 — Indicador de etapa concluída diverge do protótipo
@@ -485,6 +525,10 @@ Baixa
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Atualizar o texto para utilizar a grafia correta ("CONCLUÍDO") e ajustar estilos visuais, incluindo tipografia, peso da fonte e cores de acordo com o protótipo.
+
 ---
 
 # SEA-BUG-012 — Linhas de conexão do cabeçalho estão desalinhadas em relação ao protótipo
@@ -526,6 +570,10 @@ Baixa
 
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
+
+## Sugestão de Correção
+
+Revisar as propriedades CSS responsáveis pelo alinhamento e espessura das linhas de conexão do cabeçalho para garantir aderência ao design especificado.
 
 ---
 
@@ -571,6 +619,10 @@ Alta
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Verificar o mapeamento e a renderização dos dados de cargo na listagem, garantindo que a informação seja recuperada e exibida corretamente após o cadastro.
+
 ---
 
 # SEA-BUG-014 — Controle Ativo/Inativo diverge visualmente do protótipo
@@ -612,6 +664,10 @@ Média
 
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
+
+## Sugestão de Correção
+
+Ajustar as propriedades visuais do componente Ativo/Inativo, incluindo cores, alinhamento e comportamento visual para garantir conformidade com o protótipo.
 
 ---
 
@@ -655,6 +711,10 @@ Baixa
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Revisar o posicionamento do avatar utilizando ajustes de layout e alinhamento para garantir consistência visual com os demais elementos do componente.
+
 ---
 
 # SEA-BUG-016 — Campo de upload não apresenta ícone de anexo previsto no protótipo
@@ -697,6 +757,10 @@ Baixa
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Adicionar o ícone de anexo previsto no protótipo ao componente de upload, garantindo consistência visual e melhor identificação da funcionalidade.
+
 ---
 
 # SEA-BUG-017 — Componente de conclusão da etapa sobrepõe elementos da interface
@@ -738,6 +802,10 @@ Média
 
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
+
+## Sugestão de Correção
+
+Revisar a estrutura de layout da página e os estilos CSS do componente para eliminar sobreposição de elementos e preservar a usabilidade da interface.
 
 ---
 
@@ -782,6 +850,10 @@ Baixa
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Ajustar a lógica de estados visuais dos filtros para que a interface reflita corretamente a condição atual dos filtros após sua limpeza.
+
 ---
 
 # SEA-BUG-019 — Botão "Adicionar EPI" não possui indicação visual adequada de interatividade
@@ -825,6 +897,10 @@ Baixa
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Aplicar os estilos visuais previstos para elementos interativos, incluindo borda, cor e comportamento visual do botão "Adicionar EPI", reforçando sua identificabilidade como ação clicável.
+
 ---
 
 # SEA-BUG-020 — Ícones de expansão dos campos de seleção divergem do protótipo
@@ -866,6 +942,10 @@ Baixa
 
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
+
+## Sugestão de Correção
+
+Atualizar os ícones dos componentes de seleção para utilizar o mesmo padrão visual definido no protótipo, incluindo espessura, tamanho e estilo gráfico.
 
 ---
 
@@ -910,6 +990,10 @@ Média
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Padronizar a paleta de cores da aplicação utilizando os valores definidos no protótipo, centralizando as cores em variáveis ou tokens de design para garantir consistência visual.
+
 ---
 
 # SEA-BUG-022 — Botões da tela de cadastro utilizam cor de texto incorreta
@@ -953,6 +1037,9 @@ Baixa
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Atualizar os estilos dos botões da tela de cadastro para utilizar a cor de texto especificada no protótipo e manter consistência com a identidade visual da aplicação.
 
 ---
 
@@ -996,6 +1083,10 @@ Baixa
 
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
+
+## Sugestão de Correção
+
+Implementar diferenciação visual clara entre itens selecionados e não selecionados no menu lateral, seguindo exatamente os estados definidos no protótipo.
 
 --- 
 
@@ -1041,6 +1132,10 @@ Baixa
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Revisar a composição e formatação do texto exibido na listagem de funcionários, garantindo nomenclaturas corretas, organização das informações e aderência ao padrão visual definido.
+
 ---
 
 # SEA-BUG-025 — Fonte da aplicação diverge da especificada no protótipo
@@ -1084,17 +1179,8 @@ Média
 * Navegador: Chrome
 * Sistema Operacional: Windows 11
 
+## Sugestão de Correção
+
+Atualizar a tipografia da aplicação para utilizar a mesma fonte especificada no protótipo e garantir consistência visual em todos os componentes da interface.
+
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
