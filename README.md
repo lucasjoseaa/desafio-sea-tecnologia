@@ -80,7 +80,7 @@ npx cypress run
 docs/
 ├── 01_Analise_dos_Requisitos.md
 ├── 02_Plano_de_Testes.md
-├── 03_Casos_de_Teste.xlsx
+├── 03_Casos_de_Teste.md
 ├── 04_Bugs_Reportados.md
 └── 05_Relatorio_Final.md
 
@@ -91,6 +91,11 @@ cypress/
 └── support
 
 evidencias/
+
+README.md
+cypress.config.js
+package-lock.json
+package.json
 ```
 
 ---
